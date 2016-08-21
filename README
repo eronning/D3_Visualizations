@@ -1,0 +1,18 @@
+README
+author: eronning
+
+I believe that everything is completed for both portions of the project. 
+
+Design related:
+
+In train times I used a external library called d3.tip for my tooltips, 
+which made creating a tooltip easier. 
+My tooltips are placed above the top of the path that is being selected.
+This is so that it is easier to see the path than just having the tip next
+to the mouse. 
+
+In train times I added the 1 hour tick marks and not the 10 minute 
+tick marks. This is because the 10 minute tick marks make the graph
+much more cluttered and appear unnecessary. The pop up already shows
+the exact time for each station. Hovering over a train line line draws
+vertical lines marking times for each stop the train makes.

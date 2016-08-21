@@ -1,0 +1,95 @@
+/* CSS for the page */
+body {
+  background-color: #bfbfbf;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 2px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
+
+/* CSS for crime times */
+rect.bordered {
+  stroke: #E6E6E6;
+  stroke-width:2px;   
+}
+
+text.mono {
+  font-size: 9pt;
+  font-family: Consolas, courier;
+}
+
+text.axis-workweek {
+  fill: #000;
+}
+
+text.axis-worktime {
+  fill: #000;
+}
+
+/* CSS for train times */
+svg {
+  font: 10px sans-serif;
+}
+
+.axis path {
+  display: none;
+}
+
+.axis line {
+  fill: none;
+  stroke: #000;
+  opacity: .1;
+  shape-rendering: crispEdges;
+}
+
+.station line {
+  stroke: #ddd;
+  stroke-dasharray: 1,1;
+  shape-rendering: crispEdges;
+}
+
+.hover {
+  opacity: .4;
+}
+
+.station text {
+  text-anchor: end;
+}
+
+.train line {
+  stroke-width: 1.5px;
+}
+
+.d3-tip {
+  line-height: 1;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  border-radius: 2px;
+}
+
+.d3-tip p {
+  font-weight: bold;
+  font-size: 10px;
+}
